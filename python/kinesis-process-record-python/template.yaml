@@ -12,7 +12,7 @@ Resources:
     Properties:
       Handler: lambda_function.lambda_handler
       Runtime: python3.8
-      CodeUri: .
+      CodeUri: https://raw.githubusercontent.com/moein-shafiei/serverless-app-examples/master/python/kinesis-process-record-python/lambda_function.py
       Description: An Amazon Kinesis stream processor that logs the data being published.
       MemorySize: 128
       Timeout: 3
